@@ -3642,11 +3642,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			#contact > .inner > :nth-child(2n) {
-				padding-left: 3em;
-				width: 40%;
-			}
-
 			#contact > .inner > .split {
 				padding: 0;
 			}
