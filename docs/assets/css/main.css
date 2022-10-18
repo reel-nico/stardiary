@@ -2827,23 +2827,23 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 40%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
-			}
-
-			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
-			}
-
-			.tiles article:nth-child(6n - 3):before {
 				background-color: #ec8d81;
 			}
 
-			.tiles article:nth-child(6n - 2):before {
+			.tiles article:nth-child(6n - 4):before {
+				background-color: #6fc3df;
+			}
+
+			.tiles article:nth-child(6n - 3):before {
 				background-color: #e7b788;
+			}
+
+			.tiles article:nth-child(6n - 2):before {
+				background-color: #8d82c4;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
