@@ -3637,8 +3637,7 @@ input, select, textarea {
 		}
 
 			#contact > .inner {
-				padding: 4em 0 2em 0 ;
-				border-right: solid 1px rgba(212, 212, 255, 0.1);
+				padding: 4em 3em 2em 0 ;
 				width: 100%;
 			}
 
