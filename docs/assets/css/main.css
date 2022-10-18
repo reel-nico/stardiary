@@ -3636,8 +3636,8 @@ input, select, textarea {
 			padding: 0 !important;
 		}
 
-			#contact > .inner > :nth-child(2n - 1) {
-				padding: 4em 3em 2em 0 ;
+			#contact > .inner {
+				padding: 4em 0 2em 0 ;
 				border-right: solid 1px rgba(212, 212, 255, 0.1);
 				width: 100%;
 			}
