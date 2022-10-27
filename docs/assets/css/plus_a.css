@@ -2,13 +2,14 @@
 
 /*PCでは無効（改行しない）*/
 .neli{
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*スマートフォンでは有効（改行する）*/
-@media screen and (max-width:480px) {
+@media screen and (max-width:767px) {
     .neli{
-        display: block;
+        
     }
 }
 
