@@ -1,0 +1,15 @@
+/*改行のレスポンシブ対応*/
+
+/*PCでは無効（改行しない）*/
+.neli{
+    display: none;
+}
+
+/*スマートフォンでは有効（改行する）*/
+@media screen and (max-width:768px) {
+    .neli{
+        display: block;
+    }
+}
+
+/*ここまで*/
