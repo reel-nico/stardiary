@@ -137,8 +137,16 @@
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
-								<script>let submitted = false;</script>
-								<iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.alert("メッセージありがとうございます！");}"></iframe>
+								<script>
+									let submitted = false;
+									function alertModal(modalText) {
+										$('#alertmodal').html('<div>'+modalText+'</div>').fadeIn();
+									}
+									$('#alertmodal').on('click',function(){
+										$(this).fadeOut();
+									});
+								</script>
+								<iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.alertModal('メッセージありがとうございます！');}"></iframe>
 							</section>
 						</div>
 					</section>
