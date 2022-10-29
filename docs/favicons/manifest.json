@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "StarDiaryOfficialWebsite",
+    "short_name": "StarDiary",
     "icons": [
         {
             "src": "./favicons/android-chrome-192x192.png",
@@ -14,6 +14,6 @@
         }
     ],
     "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "background_color": "#0d0d25",
     "display": "standalone"
 }
