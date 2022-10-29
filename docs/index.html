@@ -111,7 +111,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" onsubmit="alert("メッセージありがとうございます！");" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfUKnV8L-FhoBpDyli9TqsftfXQVEHMDX8lFmMQ7Kiw6sK10A/formResponse" target="hidden_iframe">
+								<form method="post" onsubmit="thanks()" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfUKnV8L-FhoBpDyli9TqsftfXQVEHMDX8lFmMQ7Kiw6sK10A/formResponse" target="hidden_iframe">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -131,6 +131,11 @@
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
+								<script>
+									function thanks() {
+										window.alert("メッセージありがとうございます！");
+									}
+								</script>
 							</section>
 						</div>
 					</section>
