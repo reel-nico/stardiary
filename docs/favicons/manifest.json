@@ -1,6 +1,6 @@
 {
-    "name": "StarDiaryOfficialWebsite",
-    "short_name": "StarDiary",
+    "name": "スターダイアリー公式Webサイト",
+    "short_name": "スターダイアリー",
     "icons": [
         {
             "src": "./favicons/android-chrome-192x192.png",
