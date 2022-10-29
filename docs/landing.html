@@ -120,6 +120,22 @@
 										</div>
 									</div>
 								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Rhoncus magna</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
 							</section>
 
 						<!-- Three -->
@@ -141,19 +157,19 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" onsubmit="thanks()" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfUKnV8L-FhoBpDyli9TqsftfXQVEHMDX8lFmMQ7Kiw6sK10A/formResponse" target="hidden_iframe">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" placeholder="お名前" name="entry.1361952170" id="name" required="required" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="email" placeholder="メールアドレス" name="entry.812199504" id="email" required="required" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+											<textarea placeholder="メッセージ" name="entry.1551710991" id="message" rows="6" required="required"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
@@ -161,31 +177,14 @@
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
+								<script>
+									let submitted = false;
+									function thanks() {
+										window.alert("メッセージありがとうございます！\n\n※\"docs.google.com\"をブロックしている場合、メッセージが送信されないことがあります。");
+										submitted=true;
+									}
+								</script>
+								<iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.location='#';}"></iframe>
 							</section>
 						</div>
 					</section>
@@ -194,14 +193,11 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.twitter.com/star_diary_info" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.youtube.com/channel/UCFvPAIkasCD7fOM9DPdDyZA" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; StarDiary</li><li>Design: HTML5 UP</li>
 							</ul>
 						</div>
 					</footer>
