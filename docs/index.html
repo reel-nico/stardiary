@@ -132,10 +132,13 @@
 									</ul>
 								</form>
 								<script>
+									let submitted = false;
 									function thanks() {
 										window.alert("メッセージありがとうございます！\n\n※\"docs.google.com\"をブロックしている場合、メッセージが送信されないことがあります。");
+										submitted=true;
 									}
 								</script>
+								<iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.location='';}"></iframe>
 							</section>
 						</div>
 					</section>
