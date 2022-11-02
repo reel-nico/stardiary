@@ -37,6 +37,6 @@ background: url(../../images/guard.jpg);
 
 /*画像保存の対策2*/
 
-.img{ pointer-events:none; }
+.nodl{ pointer-events:none; }
 
 /*ここまで*/
