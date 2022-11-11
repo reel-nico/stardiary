@@ -3259,6 +3259,10 @@ input, select, textarea {
 			position: absolute;
 		}
 
+			#header.alt.404 .logo strong {
+				color: #6fc3df;
+			}
+
 			#header.alt.style1 .logo strong {
 				color: #6fc3df;
 			}
@@ -3491,7 +3495,11 @@ input, select, textarea {
 				opacity: 0.75;
 			}
 
-		#banner.style1:after {
+		#banner.404:after {
+			background-color: #6fc3df;
+		}
+
+		#header.style1:after {
 			background-color: #6fc3df;
 		}
 
